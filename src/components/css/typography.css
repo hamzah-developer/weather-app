@@ -1,0 +1,105 @@
+@font-face {
+  font-family: Satoshi;
+  src: url('../css/fonts/satoshi/Satoshi-Bold.woff2') format('woff2'),
+  url('../css/fonts/satoshi/Satoshi-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Satoshi;
+  src: url('../css/fonts/satoshi/Satoshi-Medium.woff2') format('woff2'),
+  url('../css/fonts/satoshi/Satoshi-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Satoshi;
+  src: url('../css/fonts/satoshi/Satoshi-Regular.woff2') format('woff2'),
+  url('../css/fonts/satoshi/Satoshi-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Satoshi;
+  src: url('../css/fonts/satoshi/Satoshi-Light.woff2') format('woff2'),
+  url('../css/fonts/satoshi/Satoshi-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  text-rendering: optimizelegibility;
+}
+
+/* @layer components { */
+  /* HEADINGS */
+  .heading-lg {
+    @apply font-satoshi font-bold;
+    @apply text-[28px] md:text-[60px] xl:text-[70px];
+    @apply leading-[28px] md:leading-[60px] xl:leading-[70px];
+  }
+
+  .heading {
+    @apply font-satoshi font-medium;
+    @apply text-[42px] md:text-[48px] xl:text-[55px];
+    @apply leading-[50px] md:leading-[54px] xl:leading-[60px];
+    @apply tracking-[0.38px] md:tracking-[0.43px] xl:tracking-[0.5px];
+  }
+
+  .heading-md {
+    @apply font-satoshi font-medium;
+    @apply text-[30px] md:text-[36px] xl:text-[45px];
+    @apply leading-[36px] md:leading-[42px] xl:leading-[53px];
+    @apply tracking-[0.27px] md:tracking-[0.14px] xl:tracking-normal;
+  }
+
+  .heading-sm {
+    @apply font-satoshi font-medium;
+    @apply text-[32px] xl:text-[35px];
+    @apply leading-[38px] xl:leading-[40px];
+  }
+
+  .heading-xs {
+    @apply font-satoshi font-thin;
+    @apply text-[17px] md:text-[22px] xl:text-[26px];
+    @apply leading-[24px] md:leading-[27px] xl:leading-[30px];
+    @apply tracking-[0.2px] md:tracking-[0.12px] xl:tracking-normal;
+  }
+
+
+  /* TAGLINES */
+  .tagline {
+    @apply font-satoshi font-light uppercase;
+    @apply text-[18px];
+    @apply leading-[32px];
+    @apply tracking-[4.62px];
+  }
+
+  .tagline-sm {
+    @apply font-satoshi font-light uppercase;
+    @apply text-[16px];
+    @apply leading-[19px];
+    @apply tracking-[5.14px];
+  }
+
+  /* BODY COPY */
+  .copy {
+    @apply font-satoshi font-normal;
+    @apply text-[18px] xl:text-[20px];
+    @apply leading-[30px] xl:leading-[35px];
+    @apply tracking-[0.45px] xl:tracking-[0.5px];
+  }
+
+  .copy-sm {
+    @apply font-satoshi font-light;
+    @apply text-[18px];
+    @apply leading-[30px] xl:leading-[24px];
+    @apply tracking-[0.45px];
+  }
+/* } */

@@ -1,0 +1,11 @@
+.container {
+  @apply mx-auto px-25 md:px-30 xl:px-60 w-full max-w-[1300px];
+}
+
+.row {
+  @apply mx-[-6px] md:mx-[-8px] xl:mx-[-12px];
+}
+
+.column {
+  @apply px-[6px] md:px-[8px] xl:px-[12px];
+}

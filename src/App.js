@@ -1,12 +1,12 @@
-import './App.css';
+import './components/css/index.css';
 import UilReact from '@iconscout/react-unicons/icons/uil-react'
+import Buttons from './components/buttons';
 
 function App() {
   return (
-    <div>
-      <h1 className='text-center text-6xl'>Hello World</h1>
-      <UilReact size={50}></UilReact>
-    </div>
+    <section className='WeatherAPP bg-black h-full w-full text-white'>
+      <Buttons />
+    </section>
   );
 }
 
