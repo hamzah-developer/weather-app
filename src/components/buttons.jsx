@@ -24,7 +24,7 @@ function buttons() {
       }
   ]
   return (
-    <section className='Buttons'>
+    <section className='Buttons py-30 lg:py-40 xl:py-50'>
       <div className='container'>
         <ul className='flex justify-between items-center'>
           {cities.map((city) => (
