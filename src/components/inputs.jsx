@@ -5,10 +5,10 @@ function inputs() {
   return (
     <section className='Inputs'>
       <div className='container flex items-center'>
-        <div className='flex items-center space-x-10 w-6/12'>
+        <div className='flex items-center space-x-10 w-10/12'>
           <input 
             type="text"
-            className='copy-sm capitalize placeholder:lowercase px-20 py-10 focus:outline-none text-black xl:min-w-[350px]'
+            className='copy-sm capitalize placeholder:lowercase px-20 py-10 focus:outline-none text-black xl:min-w-[70%]'
             placeholder='search for cities....'
           />
 
@@ -19,8 +19,10 @@ function inputs() {
             size={25}
           />
         </div>
-        <div className='w-6/12'> 
-          test
+        <div className='w-2/12 copy-sm'> 
+          <button className=''>°C</button>
+          <span>|</span>
+          <button clas>°F</button>
         </div>
       </div>
     </section>
