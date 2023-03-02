@@ -20,9 +20,9 @@ function inputs() {
           />
         </div>
         <div className='w-2/12 copy-sm'> 
-          <button className=''>°C</button>
+          <button name='metric' className=''>°C</button>
           <span>|</span>
-          <button clas>°F</button>
+          <button name='imperial' className="">°F</button>
         </div>
       </div>
     </section>
